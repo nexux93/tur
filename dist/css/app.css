@@ -21,7 +21,7 @@ a, a:visited, a:hover, a:active {
     border-radius: 3px;
 }
 
- .red {
+.red {
     background-color: #f44336;
     color: white;
 }
@@ -375,13 +375,13 @@ body .container .row img {
 #myCarousel-4 .carousel-control.left img {
     position: relative;
     top: 13rem;
-    /*left: 20rem;*/
+
 }
 
 #myCarousel-4 .carousel-control.right img {
     position: relative;
     top: 13rem;
-    /*right: 18rem;*/
+
 }
 
 #myCarousel-4 .item {
@@ -415,22 +415,71 @@ body .container .row img {
     .carusel-4-col {
         padding-top: 4rem;
     }
+
     #myCarousel-4 p {
         text-align: center;
     }
 }
+
 .banner-lvl-4-padd {
     padding-top: 5%;
 }
+
 .banner-lvl-4-padd h1 {
     font-size: 75px;
 }
+
 .banner-lvl-4-button-padd {
     padding-top: 5%;
 }
+
 .banner-lvl-4-button-padd .btn {
     border-radius: 5px;
 }
+
 .banner-lvl-4-button-padd .btn-lg {
     padding: 14px 53px;
+}
+
+.cash-padd-4 {
+    padding-top: 4rem;
+}
+
+.big-tur {
+    font-size: 11rem;
+}
+
+.big-tur-margin {
+    margin-top: -28rem;
+}
+
+@media (max-width: 900px) {
+    .big-tur {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 615px) {
+    .big-tur {
+        font-size: 5rem;
+    }
+}
+@media (max-width:500px ){
+    .banner-lvl-4-padd h1 {
+        font-size: 60px;
+    }
+}
+.banner-text-2 {
+    font-size: 40px;
+}
+@media(max-width: 600px) {
+    .big-tur-margin {
+        margin-top: -20rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-1-icon {
+        padding-top: 2rem;
+    }
 }
