@@ -453,26 +453,27 @@ body .container .row img {
     margin-top: -28rem;
 }
 
-@media (max-width: 900px) {
-    .big-tur {
-        font-size: 8rem;
-    }
-}
-
-@media (max-width: 615px) {
+@media (max-width: 991px) {
     .big-tur {
         font-size: 5rem;
     }
+
+    .big-tur-margin {
+        margin-top: -16rem;
+    }
 }
-@media (max-width:500px ){
+
+@media (max-width: 500px ) {
     .banner-lvl-4-padd h1 {
         font-size: 60px;
     }
 }
+
 .banner-text-2 {
     font-size: 40px;
 }
-@media(max-width: 600px) {
+
+@media (max-width: 600px) {
     .big-tur-margin {
         margin-top: -20rem;
     }
@@ -482,4 +483,24 @@ body .container .row img {
     .banner-1-icon {
         padding-top: 2rem;
     }
+}
+
+@media (max-width: 991px) {
+    .banner-top-lvl-2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1030px) {
+    .text-lvl-4 {
+        font-size: 6rem;
+    }
+}
+@media (max-width: 767px) {
+    .text-lvl-4 {
+        font-size: 5rem;
+    }
+}
+ strong {
+    font-weight: 900;
 }
