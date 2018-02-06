@@ -9,332 +9,48 @@
 </head>
 <body><!---->
 <div class="container-fluid banner"
-     style="background: url(img/bannerV2.png)  no-repeat 18% 82%; color: white; position:relative">
+     style="background: url(img/banner2.png)  no-repeat 50% 50%; color: white; position:relative ">
     <!--Заголовок баннера-->
     <div class="container banner-top">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 big-tur-margin">
-                <h1 class="big-tur">
-                    <Strong>БОЛЬШЕ <br>ЧЕМ ТУРАГЕНСТВО</Strong></h1>
-                </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img style="float: left; padding-top: 1rem;" src="img/arro.png" alt="">
-                <h1 class="banner-text-2">
-                    <strong>Раннее бронирование уже в продаже</strong>
-                </h1>
+                <img style="float: left" src="img/arro.png" alt="">
+                <h1><strong>Раннее бронирование уже в продаже</strong></h1>
 
             </div>
         </div>
         <!--Блоки с картинками-->
         <div class="row banner-top-lvl-2">
-            <div class="col-lg-4 banner-1-icon  col-md-4 col-sm-12 col-xs-12"><img src="img/block-1.png" alt=""></div>
-            <div class="col-lg-4  banner-1-icon col-md-4 col-sm-12 col-xs-12"><img src="img/banner-2.png" alt=""></div>
-            <div class="col-lg-4 banner-1-icon col-md-4 col-sm-12 col-xs-12"><img src="img/block-3.png" alt=""></div>
+            <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12"><img src="img/block-1.png" alt=""></div>
+            <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12"><img src="img/banner-2.png" alt=""></div>
+            <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12"><img src="img/block-3.png" alt=""></div>
         </div>
         <!--Кнопка-->
         <div class="row banner-top-lvl-3">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <button type="button" class="btn btn-banner white">ПРИСОЕДИНИТЬСЯ</button>
+                <button type="button" class="btn btn-banner">ПРИСОЕДИНИТЬСЯ</button>
             </div>
         </div>
     </div>
 </div>
 <div class="container-fluid">
-    <!-- Карусель -->
-    <div id="myCarousel-1" class="carousel slide hidden-xs" data-interval="3000000000000" data-ride="carousel">
-        <!-- Индикаторы для карусели -->
-        <div class="carousel-indicators lvl-2-carusel-indicators">
-
-            <a style="margin-right: -0.5rem;" data-target="#myCarousel-1" data-slide="prev">
-                <span class="glyphicon"><img class="img-responsive" src="img/arro-left.png" alt=""></span>
-            </a>
-
-            <a data-target="#myCarousel-1" data-slide="next">
-                <span class="glyphicon"><img class="img-responsive" src="img/arro-right.png" alt=""></span>
-            </a>
-
-        </div>
-
-        <!-- Слайды карусели -->
-        <div class="carousel-inner">
-            <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
-            <div class="active item">
-                <img class="" src="img/slide-1.png" alt="">
-            </div>
-            <!-- Слайд №2 -->
-            <div class="item">
-                <img class="" src="img/slide-2.png" alt="">
-            </div>
-            <!-- Слайд №3 -->
-            <div class="item">
-                <img class="" src="img/slide-3.png" alt="">
-            </div>
-            <div class="item">
-                <img class="" src="img/slide-4.png" alt="">
-            </div>
-
-        </div>
-
-    </div>
-    <!-- Карусель -->
-    <div id="myCarousel-2" class="carousel slide visible-xs" data-interval="3000" data-ride="carousel">
-        <!-- Индикаторы для карусели -->
-        <ol class="carousel-indicators">
-            <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
-            <li data-target="#myCarousel-2" data-slide-to="1" class="active"></li>
-        </ol>
-        <!-- Слайды карусели -->
-        <div class="carousel-inner">
-            <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
-            <div class="active item">
-                <img class="center-block" src="img/slide-smal-3.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-<!--Блок с девочкой-->
-<div class="container-fluid hidden-xs"
-     style="background: url(img/back.png)  no-repeat 50% 50%; color: white; height: 67rem;">
-<div class="row">
-    <div class="container banner-lvl-4-padd">
-        <div class="col-lg-7 col-md-7 col-sm-6"></div>
-        <div class="col-lg-3 col-md-3 col-sm-4 ">
-            <h1><strong class="text-lvl-4">ПОЛУЧИТЕ ПОДБОРКУ ЛУЧШИХ ТУРОВ</strong></h1>
-        </div>
-        <!--<div class="col-lg-2 col-md-2 "></div>-->
-    </div>
-</div>
     <div class="row">
         <div class="container">
-            <div class="col-lg-7 col-md-7 col-sm-6 hidden-xs "></div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 banner-lvl-4-button-padd ">
-                <button type="button" class="btn btn-lg red center-block">ПОЛУЧИТЬ</button>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Поиск туров из
+                        <button type="button" class="btn button-row-lvl-2 dropdown-toggle" data-toggle="dropdown">Город <span
+                                class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Город</a></li>
+                        </ul>
+                    </h4>
+                </div>
             </div>
-            <div class="col-lg-2 "></div>
-        </div>
-    </div>
+            <div class="row">
 
-</div>
-<div class="container-fluid visible-xs"
-     style="background: url(img/back-2.png)  no-repeat 30% 70%; color: white; height: 88rem;">
-    <div class="row">
-        <div class="container banner-lvl-4-padd">
-            <div class="col-xs-12 "></div>
-            <div class="col-xs-12 text-center">
-                <h1><strong class="text-lvl-4">ПОЛУЧИТЕ <br> ПОДБОРКУ ЛУЧШИХ <br> ТУРОВ</strong></h1>
-            </div>
-            <!--<div class="col-lg-2 col-md-2 "></div>-->
-        </div>
-    </div>
-    <div class="row">
-        <div class="container">
-            <div class="col-lg-7 col-md-7 col-sm-7 hidden-xs "></div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 banner-lvl-4-button-padd ">
-                <button type="button" class="btn btn-lg red center-block">ПОЛУЧИТЬ</button>
-            </div>
-            <div class="col-lg-2 "></div>
-        </div>
-    </div>
-
-</div>
-
-<!--Контейнер с партнёрами-->
-<div class="container-fluid">
-    <div class="container">
-        <div class="row lvl-5-parners-padding">
-            <!--Ряд с названием-->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h2><strong>ПАРТНЁРЫ</strong></h2>
             </div>
         </div>
-        <!--Ряд с 3мя нартнёрами-->
-        <div class="row lvl-5-parners-padding">
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 partners-logo">
-                <div class="row">
-                    <img class="img-responsive center-block" src="img/partners.png" alt="">
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 partners-logo">
-                <div class="row">
-                    <img class="img-responsive center-block" src="img/partners.png" alt="">
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 partners-logo">
-                <div class="row">
-                    <img class="img-responsive center-block" src="img/partners.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!--Ряд с кнопкой-->
-        <div class="row lvl-5-parners-padding">
-            <div class="col-lg-12 text-center">
-                <button type="button" class="btn btn-banner btn-partners"><strong>ВСЕ ПАРТНЁРЫ</strong></button>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Контейнер с командой-->
-<div class="container-fluid" style="background-image: url(img/background-undo.png);">
-    <div class="container hidden-xs">
-        <div class="row team-padd">
-            <h1 class="white text-center"><strong>НАША КОМАНДА</strong></h1>
-        </div>
-        <div class="row team-padd">
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="thumbnail">
-
-                    <img src="img/cadr-2.png" alt="...">
-
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row team-padd">
-            <div class="col-lg-2 col-md-2 col-sm-2"></div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2"></div>
-        </div>
-    </div>
-    <div class="row team-padd visible-xs">
-        <h1 class="white text-center"><strong>НАША КОМАНДА</strong></h1>
-    </div>
-    <!-- Карусель Моя команда в адаптиве-->
-    <div id="myCarousel-3" class="carousel slide visible-xs" data-interval="300000000   " data-ride="carousel">
-        <!-- Индикаторы для карусели -->
-        <ol class="carousel-indicators text-center  ">
-            <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
-            <li data-target="#myCarousel-3" data-slide-to="0" class="carusel-ind active"></li>
-            <li data-target="#myCarousel-3" data-slide-to="1" class="carusel-ind"></li>
-            <li data-target="#myCarousel-3" data-slide-to="2" class="carusel-ind"></li>
-        </ol>
-        <!-- Слайды карусели -->
-        <div class="carousel-inner">
-            <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
-            <div class="active item">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="thumbnail">
-                    <img src="img/cadr-2.png" alt="...">
-                    <div class="caption">
-                        <h3>Константин <br>Константинов</h3>
-                        <p>Должность</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Отзывы туристов-->
-<div class="content-fluid">
-    <div class="row lvl-5-parners-padding cash-padd-4">s
-        <h1 class="text-center"><strong>ОТЗЫВЫ ТУРИСТОВ</strong></h1>
-    </div>
-    <!--Карусель на дектопе-->
-    <div class="row">
-
-        <div id="myCarousel-4" class="carousel slide" data-interval="3000" data-ride="carousel">
-            <!-- Индикаторы для карусели -->
-            <ol class="carousel-indicators">
-                <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
-                <li data-target="#myCarousel-4" data-slide-to="0" class="active"></li>
-
-            </ol>
-            <!-- Слайды карусели -->
-            <div class="carousel-inner">
-                <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
-                <div class="active item">
-                    <div class="item">
-                        <div class="container carusel-4">
-                            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 carusel-4-col">
-                                <img class="img-responsive center-block" src="img/cash-img.png" alt="">
-                            </div>
-                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 carusel-4-col">
-                                <img class="img-responsive center-block" src="img/quates.png" alt="">
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 carusel-4-col">
-                                <p>urbgeibgnostbgnos soltbgnlsrb tklsrtubgks uhgouesbh gksbgnlis bglsb glisubn gliusbng
-                                    lisbng klusbhnglubhng kbslbs gklusbhn gusnbh gubrns kuigb thnsgklib nkuusnbtkui
-                                    stbhn </p><br>
-                                <strong>Константин Константинов</strong>
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Навигация для карусели -->
-            <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
-            <a class="carousel-control left hidden-xs" href="#myCarousel-4" data-slide="prev">
-                <span class="glyphicon"><img src="img/arroy-left-2.png" alt=""></span>
-            </a>
-            <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
-            <a class="carousel-control right hidden-xs" href="#myCarousel-4" data-slide="next">
-                <span class="glyphicon"><img src="img/arroy-right-2.png" alt=""></span>
-            </a>
-
-        </div>
-    </div>
-    <!--Кнопка-->
-    <div class="row lvl-5-parners-padding">
-        <button type="button" class="btn btn-lg red center-block">Оставить отзыв</button>
     </div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
