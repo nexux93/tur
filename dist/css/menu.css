@@ -33,10 +33,11 @@ h1 {
     text-align: center;
 }
 .outer-menu {
-    position: fixed;
-    top: 10vh;
-    left: 0;
+    position: absolute;
+    top: 25%;
+    left: 60%;
     z-index: 1;
+    padding-left: 2rem;
 }
 .outer-menu .checkbox-toggle {
     position: absolute;
