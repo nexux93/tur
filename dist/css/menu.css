@@ -176,7 +176,7 @@ h1 {
     width: 0;
     height: 0;
     color: #fefefe;
-    background: rgba(41, 98, 255, 0.97);
+    background: url( http://localhost:63342/tur/img/menu-back.png) repeat-x 50% 50%;
     border-radius: 50%;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -259,4 +259,10 @@ h1 {
     background: #e5e5e5;
     -webkit-transition: width 0.3s ease;
     transition: width 0.3s ease;
+}
+
+.outer-menu .close-but {
+top: 20%;!important;
+left: 59%;!important;
+
 }
